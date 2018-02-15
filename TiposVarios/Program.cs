@@ -22,6 +22,7 @@ namespace TiposVarios
             Console.WriteLine(l);
             Console.WriteLine(ul);
             Console.WriteLine(de);
+            Console.WriteLine();
 
             char a = '\u00BC';
             char b = '\u00A2';
@@ -29,6 +30,7 @@ namespace TiposVarios
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
+            Console.WriteLine();
 
             float fa = 1.3f;
             float fb = 2.4f;
@@ -37,33 +39,27 @@ namespace TiposVarios
             Console.WriteLine(fa);
             Console.WriteLine(fb);
             Console.WriteLine(fc);
+            Console.WriteLine();
 
             bool ba = true;
             bool bb = false;
 
             Console.WriteLine(ba);
             Console.WriteLine(bb);
+            Console.WriteLine();
+
+            string sa = "teste1";
+            string sb = " \u00BC  = 10 \t \u00A2 = 20";
+            string sc = "A\tE\tS\tT\tE\tT\tH\tI\tC\tS";
+            string sd = @"\n so que nao";
+
+            Console.WriteLine(sa);
+            Console.WriteLine(sb);
+            Console.WriteLine(sc);
+            Console.WriteLine(sd);
+            Console.WriteLine();
+
+            Console.ReadKey();
         }
     }
 }
-
-
-//Criar novo projeto no Visual Studio(Console App .NET Framework c/ Git)
-//Nome do projeto: TiposVarios
-//2 Criar variáveis inteiras de diferentes tipos inicializadas com literais adequados
-//3 Imprimir no ecrã o valor das várias variáveis inteiras
-//4 Git: add alterações + commit com mensagem apropriada
-//5 Criar variáveis char com diferentes valores Unicode
-//(https://unicode-table.com/)
-//6 Imprimir no ecrã o valor dos diferentes caracteres
-//7 Git: add alterações + commit com mensagem apropriada
-//8 Criar variáveis reais de diferentes tipos inicializadas com literais adequados
-//9 Imprimir no ecrã o valor das várias variáveis reais
-//10 Git: add alterações + commit com mensagem apropriada
-
-//11 Criar duas variáveis booleanas, uma inicializada a true, outra a false
-//12 Imprimir no ecrã o valor de cada variável booleana
-//13 Git: add alterações + commit com mensagem apropriada
-
-//14 Criar novo repositório remoto (GitHub, GitLab ou BitBucket)
-//15 Fazer push de todos os commits para o repositório remoto
