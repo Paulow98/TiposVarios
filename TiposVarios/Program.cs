@@ -23,9 +23,18 @@ namespace TiposVarios
             Console.WriteLine(ul);
             Console.WriteLine(de);
 
+            char a = '\u00BC';
+            char b = '\u00A2';
+            char c = '\u00B6';
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+
+
 
         }
     }
 }
+
 
 
