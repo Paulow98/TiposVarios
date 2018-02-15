@@ -8,25 +8,24 @@ namespace TiposVarios
 {
     class Program
     {
+
         static void Main(string[] args)
-        {
-            double d = 1312;
+        { 
+            
             uint ui = 12013U;
             int i = 100;
             long l = 123L;
             ulong ul = 3UL;
-            decimal de = 3.13m;
-            Console.WriteLine(d);
             Console.WriteLine(ui);
             Console.WriteLine(i);
             Console.WriteLine(l);
-            Console.WriteLine(ul);
-            Console.WriteLine(de);
+            Console.WriteLine(ul);       
             Console.WriteLine();
 
             char a = '\u00BC';
             char b = '\u00A2';
             char c = '\u00B6';
+           
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
@@ -35,10 +34,14 @@ namespace TiposVarios
             float fa = 1.3f;
             float fb = 2.4f;
             float fc = 55512.34f;
+            double d = 1312;
+            decimal de = 3.13m;
 
             Console.WriteLine(fa);
             Console.WriteLine(fb);
             Console.WriteLine(fc);
+            Console.WriteLine(d);
+            Console.WriteLine(de);
             Console.WriteLine();
 
             bool ba = true;
