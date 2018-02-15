@@ -49,14 +49,23 @@ namespace TiposVarios
             Console.WriteLine();
 
             string sa = "teste1";
-            string sb = " \u00BC  = 10 \t \u00A2 = 20";
-            string sc = "A\tE\tS\tT\tE\tT\tH\tI\tC\tS";
+            string sb = " \u00BC  = 10 \t \u00BD = 20";
+            string sc = "A\tE\tS\tT\tH\tE\tT\tI\tC\tS";
             string sd = @"\n so que nao";
 
             Console.WriteLine(sa);
             Console.WriteLine(sb);
             Console.WriteLine(sc);
             Console.WriteLine(sd);
+            Console.WriteLine();
+
+            string se = "two plus two is " + 4 + " quick maths";
+            string sf = $"the value of fc is {fc}";
+            string sg = "the sum between " + fa + " and " + fb + $" equals {fa + fb}";
+
+            Console.WriteLine(se);
+            Console.WriteLine(sf);
+            Console.WriteLine(sg);
             Console.WriteLine();
 
             Console.ReadKey();
