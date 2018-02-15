@@ -30,11 +30,15 @@ namespace TiposVarios
             Console.WriteLine(b);
             Console.WriteLine(c);
 
+            float fa = 1.3f;
+            float fb = 2.4f;
+            float fc = 55512.34f;
+
+            Console.WriteLine(fa);
+            Console.WriteLine(fb);
+            Console.WriteLine(fc);
 
 
         }
     }
 }
-
-
-
