@@ -71,6 +71,7 @@ namespace TiposVarios
             Console.WriteLine(sg);
             Console.WriteLine();
 
+
             Console.ReadKey();
         }
     }
